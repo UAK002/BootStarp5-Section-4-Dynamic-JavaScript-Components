@@ -13,11 +13,74 @@
       <h1 class="mb-5">Modal</h1>
 
       <!-- Modal Button -->
-      <button type="button" class="btn btn-primary">Open Modal</button>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#myModal"
+      >
+        Open Modal
+      </button>
 
       <!-- Modal -->
+      <!-- <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="myModalLabel">Modal Title</h1>
+              <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam voluptatem nulla numquam eum ad, asperiores, distinctio
+              fugit totam sed in tempora, maxime eligendi. Dolorum, in
+              accusantium velit perspiciatis neque quidem.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button class="btn btn-primary">Save Changes</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
 
       <!-- Don't go past here -->
+
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="myModalLabel">Modal title</h1>
+              <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequuntur laborum aut aliquid porro doloribus soluta ipsam
+              sunt, totam, sed cumque nobis magni accusantium at tempore,
+              molestiae quidem. Iste, laborum non?
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button class="btn btn-primary">Save Changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 
+
+- Creating Close button
+1. W div.modal-header > button class= btn-close & data-bs-dismiss = "modal"
+
+- Creating Modal Footer
+1. W div.modal-content > div class= modal-footer
+2. W div.modal-footer > button class = btn, btn-secondary & data-bs-dismiss= " modal " > {Close }
+3. W div.modal-footer > button class = btn, btn-primary > {Save Changes }
+       -->
     </div>
     <div style="margin-top: 350px"></div>
 
